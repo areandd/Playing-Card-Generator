@@ -57,15 +57,23 @@ function randomCard(cards) {
   document.body.appendChild(card);
 }
 
-var deck = document.createElement("button");
-deck.innerHTML = "Shuffle the Deck";
+// var deck = document.createElement("button");
+// deck.innerHTML = "Shuffle the Deck";
 
-deck.addEventListener("click", () => {
-  window.location.reload();
-});
+// deck.addEventListener("click", () => {
+//   window.location.reload();
+// });
 
 // deck.style.background = "yellow";
+// deck.classList.add("btn");
 
-document.body.appendChild(deck);
+// const newDeck = document.createElement("button");
+// newDeck.innerHTML = "New Card";
+// newDeck.addEventListener("click", function() {
+//   window.location.reload();
+// });
+
+// deck.classList.add("btn2");
+// document.body.appendChild(newDeck);
 const cards = deckBuilder();
 randomCard(cards);
